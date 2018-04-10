@@ -389,6 +389,8 @@ DEPENDENCIES
   carrierwave_direct
   coffee-rails (~> 4.2)
   devise
+  fog
+  fog-aws
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg
