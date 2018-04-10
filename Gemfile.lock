@@ -386,6 +386,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara (~> 2.13)
+  carrierwave
   carrierwave_direct
   coffee-rails (~> 4.2)
   devise
