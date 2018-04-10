@@ -28,9 +28,9 @@
 
   <div class="field">
     <% if @store.image? %>
-    <div class=”thumbnail”>
-    <%= image_tag @store.image.url %>
-    </div>
+      <div class=”thumbnail”>
+        <%= image_tag @store.image.url %>
+      </div>
     <% end %><br>
     <%= form.label :image %><br>
     <%= form.file_field :image %>
@@ -39,9 +39,9 @@
 
   <div class="field">
     <% if @store.persisted? && @store.image? %>
-    <label>
-    <%= form.check_box :remove_image %>
-    </label>
+      <label>
+        <%= form.check_box :remove_image %>
+      </label>
     <% end %>
   </div>
 
