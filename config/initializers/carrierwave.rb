@@ -1,8 +1,8 @@
 CarrierWave.configure do |config|
   config.fog_credentials = {
     :provider               => 'AWS',       # required
-    :aws_access_key_id      => 'AKIAI6QKI4SMKOLLBX6A',       # required
-    :aws_secret_access_key  => '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',       # required
+    :aws_access_key_id      => 'AKIAIJ5ZFBQW6OMQHBYA',       # required
+    :aws_secret_access_key  => '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',       # required
     :region                 => 'us-west-1'  # optional, defaults to 'us-east-1'
   }
   case Rails.env
