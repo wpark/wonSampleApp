@@ -3,7 +3,7 @@ CarrierWave.configure do |config|
     :provider               => 'AWS',       # required
     :aws_access_key_id      => 'AKIAI6QKI4SMKOLLBX6A',       # required
     :aws_secret_access_key  => '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',       # required
-    :region                 => 'us-west-1'  # optional, defaults to 'us-east-1'
+    :region                 => 'us-east-1'  # optional, defaults to 'us-east-1'
   }
   case Rails.env
     when 'production'
