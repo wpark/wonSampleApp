@@ -9,11 +9,11 @@ CarrierWave.configure do |config|
   case Rails.env
     when 'production'
       config.fog_directory = 'wonsample'
-      config.asset_host = 'https://s3-us-west-1.amazonaws.com/#{config.fog_directory}'
+      config.asset_host = 'https://s3-us-west-1.amazonaws.com/wonsample'
 
     when 'development'
       config.fog_directory = 'wonsample'
-      config.asset_host = 'https://s3-us-west-1.amazonaws.com/#{config.fog_directory}'
+      config.asset_host = 'https://s3-us-west-1.amazonaws.com/wonsample'
 
     when 'test'
       config.fog_directory = 'test.wonsample'
