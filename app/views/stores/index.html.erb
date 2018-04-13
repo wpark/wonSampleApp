@@ -16,7 +16,7 @@
   <tbody>
     <% @stores.each do |store| %>
       <tr>
-        <td><%= store.name %></td>
+        <td><%= store.name.to_s %></td>
         <td><%= store.title %></td>
         <td><%= store.content %></td>
         <td><%= store.image %></td>
